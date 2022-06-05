@@ -40,9 +40,9 @@ La cantidad y variedad de hardware en existencia es muy variado. Es importante c
 
 | Placa | Cantidad de Placas | Cores/<3 | Subtotal cores | Memoria en GiB | Subtotal Memoria | Notas |
 | ----- | -----------------: | -------: | -------------: | -------------: | ---------------: | ----- |
-| Sifive Unmatched | 1 | 4 | 1 | 4 | 1 |Descontinuada. Donada por (Greencore Solutions)[www.greencore.co.cr] para el proyecto de Slackware-riscv64 |
+| Sifive Unmatched | 1 | 4 | 4 | 8 | 8 | Descontinuada. Donada por (Greencore Solutions)[www.greencore.co.cr] para el proyecto de Slackware-riscv64 |
 | BeagleV | 2 | 2 | 4 | 8 | 16 | Descontinuada. |
 | Allwinner Nezha D1 | 1 | 1 | 1 | 1 | 1 | |
 | MangoPi Mq-Pro | 4 | 1 | 4 | 1 | 4 | Pink <3 |
-| lichee RV-Nezha CM Allwinner D1 | 2 | 1 | 2 | 1 | 2 | |
-
+| lichee RV-Nezha CM Allwinner D1 | 2 | 1 | 2 | 0.5 | 1 | |
+| Total | 10 | -- |  15 | -- | 30 | -- |
