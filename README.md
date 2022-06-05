@@ -26,3 +26,23 @@ TODO:
 
 - [ ] Actualmente se ha tratado de correr el runner oficial de Github, sin embargo Dotnet [no corre en RISCV64](https://github.com/dotnet/runtime/issues/36748), por lo cual se opta por buscar alternativas.
 - [ ] Se está probando [gha-runner de Rust-lang](https://github.com/rust-lang/gha-runner). Este es un proyecto con advertencia de no usarse y sin soporte, sin embargo parece ser una alternativa mucho más rápida a esperar al equipo de Dotnet.
+
+
+### Hardware
+
+La cantidad y variedad de hardware en existencia es muy variado. Es importante crear documentación sobre como:
+
+- Conectar consola serial a los equipos
+- Distribuciones recomendadas con kernels recientes
+- Instrucciones para instalar y expandir disco
+
+#### Hardware actual
+
+|Placa|Cantidad de Placas|Cores/<3|Subtotal cores|Memoria en GiB|Subtotal Memoria|Notes|
+|-|-|-|-|-|-|
+|Sifive Unmatched|1|4|1|4|1|Discontinued. Donated by (Greencore Solutions)[www.greencore.co.cr] to the Slackware-riscv64 project|
+|BeagleV|2|2|4|8|16|Discontinued.|
+|Allwinner Nezha D1|1|1|1|1|1||
+|MangoPi Mq-Pro|4|1|4|1|4|Pink <3|
+|lichee RV-Nezha CM Allwinner D1|2|1|2|1|2||
+
